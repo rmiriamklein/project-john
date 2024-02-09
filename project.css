@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #a31bec;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Beginning of John's website*/
+header {
+  background-color: #120431;
+  color: white;
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav > div {
+  padding: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(6, 114, 247);
+}
+.john {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
+  font-weight: bold;
+}
+.john > img {
+  width: 31%;
+}
+
+/*All about John*/
+
+#about {
+  background-color: white;
+  border: 12px solid #f779c0;
+  display: flex;
+  margin: 8%;
+}
+.john-computer {
+  width: 70%;
+}
+.john-computer > img {
+  width: 100%;
+  padding: 24% 8% 12% 8%;
+}
+.about-me {
+  padding: 0% 8% 2% 0%;
+}
+.about-me > h2 {
+  padding: 5%;
+}
+
+/*John's Projects*/
+#projects > div {
+  display: flex;
+  justify-content: center;
+}
+#projects > div > h2 {
+  color: white;
+}
+
+.project-freinds,
+.project-family {
+  background-color: white;
+  border-radius: 20px;
+  width: 30%;
+  margin: 2%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-freinds > img,
+.project-family > img {
+  width: 100%;
+}
+.project-freinds a,
+.project-family a {
+  text-decoration: none;
+  border: 5px solid rgb(158, 226, 249);
+  border-radius: 10px;
+}
+#contact {
+  background-color: #393c6f;
+}
+
+.form {
+  width: 60%;
+}
+.form-info {
+  display: flex;
+  flex-direction: column;
+}
+.form > div {
+  border: 5px solid palevioletred;
+}
