@@ -96,15 +96,64 @@ nav a:hover {
 }
 #contact {
   background-color: #393c6f;
+  margin: 10% 0%;
+
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 .form {
-  width: 60%;
+  width: 900px;
 }
 .form-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .form > div {
-  border: 5px solid palevioletred;
 }
+.form-info > div {
+  width: 100%;
+  padding: 5px;
+}
+.form-contact {
+  color: white;
+  text-align: center;
+  padding: 4% 0%;
+}
+.name-sub-email {
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#message {
+  height: 205px;
+}
+.form-submit {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  margin: 20px 0;
+}
+.form-submit > input {
+  background-color: lightskyblue;
+  padding: 12px 36px;
+  border-radius: 4px;
+  border: none;
+}
+/*input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}*/
