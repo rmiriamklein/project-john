@@ -35,7 +35,7 @@ nav a:hover {
   align-items: center;
   padding: 8%;
   font-weight: bold;
-  padding-top: 60px;
+  padding-top: 85px;
 }
 .john > img {
   width: 97%;
@@ -49,8 +49,16 @@ nav a:hover {
 #about {
   background-color: white;
   border: 12px solid #f779c0;
-
   margin: 8%;
+}
+#about > div {
+  text-align: center;
+}
+.small-h2 {
+  padding: 5%;
+}
+.big-h2 {
+  display: none;
 }
 .john-computer {
   width: 70%;
@@ -62,26 +70,23 @@ nav a:hover {
 .about-me {
   padding: 0% 8% 2% 0%;
 }
-.about-me > h2 {
-  padding: 5%;
-}
 
 /*John's Projects*/
 #projects > div {
-  display: flex;
   justify-content: center;
 }
 #projects > div > h2 {
   color: white;
+  text-align: center;
 }
 
 .project-freinds,
 .project-family {
   background-color: white;
   border-radius: 20px;
-  width: 30%;
+
   margin: 2%;
-  padding: 1%;
+  padding: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +102,11 @@ nav a:hover {
   text-decoration: none;
   border: 5px solid rgb(158, 226, 249);
   border-radius: 10px;
+}
+.project-freinds a:hover,
+.project-family a:hover {
+  background-color: rgb(158, 226, 249);
+  color: white;
 }
 #contact {
   background-color: #393c6f;
@@ -173,5 +183,20 @@ input[type="text"] {
 
   #about {
     display: flex;
+  }
+  #about > div {
+    text-align: left;
+  }
+  #projects > div {
+    display: flex;
+    justify-content: center;
+  }
+  .small-h2 {
+    display: none;
+  }
+  .big-h2 {
+    display: inline;
+    text-align: center;
+    padding: 8%;
   }
 }
