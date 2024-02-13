@@ -96,11 +96,11 @@ nav a:hover {
 }
 #contact {
   background-color: #393c6f;
-  margin: 10% 0%;
-
+  margin: 10% 0% 0% 0%;
   display: flex;
   justify-content: center;
   color: white;
+  padding-bottom: 2%;
 }
 
 .form {
@@ -109,8 +109,6 @@ nav a:hover {
 .form-info {
   display: flex;
   flex-direction: row;
-}
-.form > div {
 }
 .form-info > div {
   width: 100%;
@@ -147,6 +145,14 @@ input[type="text"] {
   padding: 12px 36px;
   border-radius: 4px;
   border: none;
+}
+.copyright {
+  background-color: rgb(24, 24, 24);
+  color: white;
+  padding: 16px;
+}
+.copyright > p {
+  padding-left: 8%;
 }
 /*input[type=text], select {
   width: 100%;
