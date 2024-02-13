@@ -35,10 +35,13 @@ nav a:hover {
   align-items: center;
   padding: 8%;
   font-weight: bold;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .john > img {
-  width: 31%;
+  width: 97%;
+}
+.john > p {
+  text-align: center;
 }
 
 /*All about John*/
@@ -156,9 +159,19 @@ input[type="text"] {
   padding-left: 8%;
 }
 @media screen and (min-width: 600px) {
+  .john {
+    padding-top: 100px;
+  }
+  .john > img {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .john > img {
+    width: 33%;
+  }
+
   #about {
     display: flex;
   }
-}
-@media screen and (min-width: 600px) {
 }
