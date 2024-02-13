@@ -19,7 +19,7 @@ nav {
   justify-content: center;
 }
 nav > div {
-  padding: 20px;
+  padding: 1% 2%;
 }
 nav a {
   color: white;
@@ -35,6 +35,7 @@ nav a:hover {
   align-items: center;
   padding: 8%;
   font-weight: bold;
+  padding-top: 100px;
 }
 .john > img {
   width: 31%;
@@ -45,7 +46,7 @@ nav a:hover {
 #about {
   background-color: white;
   border: 12px solid #f779c0;
-  display: flex;
+
   margin: 8%;
 }
 .john-computer {
@@ -154,12 +155,10 @@ input[type="text"] {
 .copyright > p {
   padding-left: 8%;
 }
-/*input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  
-}*/
+@media screen and (min-width: 600px) {
+  #about {
+    display: flex;
+  }
+}
+@media screen and (min-width: 600px) {
+}
