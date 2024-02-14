@@ -50,25 +50,30 @@ nav a:hover {
   background-color: white;
   border: 12px solid #f779c0;
   margin: 8%;
-}
-#about > div {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .small-h2 {
   padding: 5%;
+  text-align: center;
 }
 .big-h2 {
   display: none;
 }
 .john-computer {
-  width: 70%;
+  width: 80%;
 }
 .john-computer > img {
   width: 100%;
-  padding: 24% 8% 12% 8%;
+  padding: 0% 8%;
 }
 .about-me {
-  padding: 0% 8% 2% 0%;
+  padding: 10%;
+}
+.about-me > p {
+  text-align: center;
 }
 
 /*John's Projects*/
@@ -84,8 +89,7 @@ nav a:hover {
 .project-family {
   background-color: white;
   border-radius: 20px;
-
-  margin: 2%;
+  margin: 10%;
   padding: 10%;
   display: flex;
   flex-direction: column;
@@ -116,9 +120,6 @@ nav a:hover {
   justify-content: center;
   color: white;
   padding-bottom: 2%;
-}
-
-.form-info {
 }
 .form-info > div {
   width: 100%;
@@ -156,10 +157,14 @@ input[type="text"] {
   border-radius: 4px;
   border: none;
 }
+.form-submit > input:hover {
+  background-color: black;
+  color: white;
+}
 .copyright {
   background-color: rgb(24, 24, 24);
   color: white;
-  padding: 16px;
+  padding: 1%;
 }
 .copyright > p {
   padding-left: 8%;
@@ -171,27 +176,18 @@ input[type="text"] {
   .john > img {
     width: 390px;
   }
-  .form-info {
-    display: flex;
-    flex-direction: row;
-  }
-  .form {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .john > img {
-  }
-
   #about {
     display: flex;
   }
   #about > div {
     text-align: left;
   }
-  #projects > div {
+  .form-info {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+  }
+  .form {
+    width: 100%;
   }
   .small-h2 {
     display: none;
@@ -200,5 +196,11 @@ input[type="text"] {
     display: inline;
     text-align: center;
     padding: 8%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #projects > div {
+    display: flex;
+    justify-content: center;
   }
 }
