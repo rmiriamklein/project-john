@@ -49,7 +49,7 @@ nav a:hover {
 #about {
   background-color: white;
   border: 12px solid #f779c0;
-  margin: 8%;
+  margin: 10% 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,8 +77,8 @@ nav a:hover {
 }
 
 /*John's Projects*/
-#projects > div {
-  justify-content: center;
+#projects {
+  margin: 20% 0%;
 }
 #projects > div > h2 {
   color: white;
@@ -115,14 +115,15 @@ nav a:hover {
 /* Contact Form*/
 #contact {
   background-color: #393c6f;
-  margin: 10% 0% 0% 0%;
+  margin-top: 15%;
   display: flex;
   justify-content: center;
   color: white;
   padding-bottom: 2%;
 }
+.form-info {
+}
 .form-info > div {
-  width: 100%;
   padding: 5px;
 }
 .form-contact {
@@ -176,15 +177,25 @@ input[type="text"] {
   .john > img {
     width: 390px;
   }
+  .john-computer {
+    width: 100%;
+  }
   #about {
     display: flex;
+    flex-direction: row;
   }
-  #about > div {
+  .about-me {
+    padding: 10% 5% 10% 0%;
+  }
+  .about-me > p {
     text-align: left;
+  }
+  .project-freinds,
+  .project-family {
+    margin: 10% 25%;
   }
   .form-info {
     display: flex;
-    flex-direction: row;
   }
   .form {
     width: 100%;
