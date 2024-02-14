@@ -19,7 +19,7 @@ nav {
   justify-content: center;
 }
 nav > div {
-  padding: 1% 2%;
+  padding: 20px;
 }
 nav a {
   color: white;
@@ -35,13 +35,9 @@ nav a:hover {
   align-items: center;
   padding: 8%;
   font-weight: bold;
-  padding-top: 85px;
 }
 .john > img {
-  width: 97%;
-}
-.john > p {
-  text-align: center;
+  width: 31%;
 }
 
 /*All about John*/
@@ -49,48 +45,39 @@ nav a:hover {
 #about {
   background-color: white;
   border: 12px solid #f779c0;
-  margin: 10% 1%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.small-h2 {
-  padding: 5%;
-  text-align: center;
-}
-.big-h2 {
-  display: none;
+  margin: 8%;
 }
 .john-computer {
-  width: 80%;
+  width: 70%;
 }
 .john-computer > img {
   width: 100%;
-  padding: 0% 8%;
+  padding: 24% 8% 12% 8%;
 }
 .about-me {
-  padding: 10%;
+  padding: 0% 8% 2% 0%;
 }
-.about-me > p {
-  text-align: center;
+.about-me > h2 {
+  padding: 5%;
 }
 
 /*John's Projects*/
-#projects {
-  margin: 15% 0%;
+#projects > div {
+  display: flex;
+  justify-content: center;
 }
 #projects > div > h2 {
   color: white;
-  text-align: center;
 }
 
 .project-freinds,
 .project-family {
   background-color: white;
   border-radius: 20px;
-  margin: 10%;
-  padding: 10%;
+  width: 30%;
+  margin: 2%;
+  padding: 1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,21 +94,24 @@ nav a:hover {
   border: 5px solid rgb(158, 226, 249);
   border-radius: 10px;
 }
-.project-freinds a:hover,
-.project-family a:hover {
-  background-color: rgb(158, 226, 249);
-  color: white;
-}
-/* Contact Form*/
 #contact {
   background-color: #393c6f;
-  margin-top: 15%;
+  margin: 10% 0% 0% 0%;
   display: flex;
   justify-content: center;
   color: white;
   padding-bottom: 2%;
 }
+
+.form {
+  width: 900px;
+}
+.form-info {
+  display: flex;
+  flex-direction: row;
+}
 .form-info > div {
+  width: 100%;
   padding: 5px;
 }
 .form-contact {
@@ -156,90 +146,11 @@ input[type="text"] {
   border-radius: 4px;
   border: none;
 }
-.form-submit > input:hover {
-  background-color: black;
-  color: white;
-}
 .copyright {
   background-color: rgb(24, 24, 24);
   color: white;
-  padding: 1%;
+  padding: 16px;
 }
 .copyright > p {
   padding-left: 8%;
-}
-@media screen and (min-width: 600px) {
-  .john {
-    padding-top: 100px;
-  }
-  .john > img {
-    width: 390px;
-  }
-  .john-computer {
-    width: 100%;
-  }
-  #about {
-    display: flex;
-    flex-direction: row;
-  }
-  .about-me {
-    padding: 10% 5% 10% 0%;
-  }
-  .about-me > p {
-    text-align: left;
-  }
-  .project-freinds,
-  .project-family {
-    margin: 10% 25%;
-  }
-  .form-info {
-    display: flex;
-  }
-  .form-info > div {
-    width: 100%;
-    padding: 5px;
-  }
-  .form {
-    width: 80vw;
-  }
-  .small-h2 {
-    display: none;
-  }
-  .big-h2 {
-    display: inline;
-    text-align: center;
-    padding: 8%;
-  }
-}
-@media screen and (min-width: 768px) {
-  #about {
-    background-color: white;
-    border: 12px solid #f779c0;
-    display: flex;
-    margin: 8%;
-  }
-  .john-computer {
-    width: 70%;
-  }
-  .john-computer > img {
-    width: 100%;
-    padding: 24% 8% 12% 8%;
-  }
-  .about-me {
-    padding: 0% 8% 2% 0%;
-  }
-  .about-me > h2 {
-    padding: 5%;
-  }
-  #projects > div {
-    display: flex;
-    justify-content: center;
-  }
-
-  .project-freinds,
-  .project-family {
-    width: 30%;
-    margin: 2%;
-    padding: 1%;
-  }
 }
