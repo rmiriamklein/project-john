@@ -108,6 +108,7 @@ nav a:hover {
   background-color: rgb(158, 226, 249);
   color: white;
 }
+/* Contact Form*/
 #contact {
   background-color: #393c6f;
   margin: 10% 0% 0% 0%;
@@ -117,12 +118,7 @@ nav a:hover {
   padding-bottom: 2%;
 }
 
-.form {
-  width: 900px;
-}
 .form-info {
-  display: flex;
-  flex-direction: row;
 }
 .form-info > div {
   width: 100%;
@@ -173,12 +169,18 @@ input[type="text"] {
     padding-top: 100px;
   }
   .john > img {
-    width: 80%;
+    width: 390px;
+  }
+  .form-info {
+    display: flex;
+    flex-direction: row;
+  }
+  .form {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
   .john > img {
-    width: 33%;
   }
 
   #about {
